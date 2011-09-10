@@ -1,3 +1,4 @@
+0.19  Sat, 10 Sep 2011 20:10:00 +0100
   * Fix hooking protocol, which was broken in a way that could result in losing
     checkers hooked in by other modules.
   * Add MYMETA.{json,yml} to MANIFEST.SKIP and .gitignore.
