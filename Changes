@@ -1,5 +1,6 @@
   * Fix hooking protocol, which was broken in a way that could result in losing
     checkers hooked in by other modules.
+  * Add MYMETA.{json,yml} to MANIFEST.SKIP and .gitignore.
 
 0.18  Mon, 06 Jul 2009 14:39:25 +0200
   * Require ExtUtils::Depends 0.302, which fixes linking problems on strawberry
