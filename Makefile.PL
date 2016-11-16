@@ -2,7 +2,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-
+use lib '.';
 use inc::Module::Install;
 use ExtUtils::Depends;
 
@@ -31,6 +31,6 @@ makemaker_args(
 repository 'git://git.fysh.org/zefram/B-Hooks-OP-Check.git';
 bugtracker 'http://rt.cpan.org/Public/Dist/Display.html?Name=B-Hooks-OP-Check';
 
-extra_tests;
+#extra_tests;
 
 WriteAll;
